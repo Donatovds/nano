@@ -11,7 +11,6 @@ def optie1():
 
 def optie2():
     print("Je hebt Galgje gekozen, laten we beginnen.")
-    import galgje
 
 def optie3():
     print("Optie 3 afsluiten")
