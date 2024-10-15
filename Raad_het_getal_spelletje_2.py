@@ -3,10 +3,12 @@ Getal = random.randrange(1,11)
 
 AantalPogingen = 5
 
+print("Mijn computer heeft een getal tussen de 1-10 bedacht.")
+
 for i in range(AantalPogingen):
     PogingenOver = AantalPogingen - i
 
-    RaadGetal = int(input('Mijn computer heeft een getal tussen de 1 en 10 in gedachte, Raad jij het getal?: '))
+    RaadGetal = int(input('Raad het getal! \n Vul een getal in:'))
 
     if PogingenOver == 1:
         print('Helaas!, je hebt het getal niet geraden, start opnieuw. ')
