@@ -1,3 +1,6 @@
+from Raad_het_getal_spelletje_2 import raadspel
+from galgje import galgjespel
+
 def toon_menu():
     print("\n--TinyGames--")
     print(" Optie 1 Raad Het Getal!")
@@ -7,11 +10,12 @@ def toon_menu():
 
 def optie1():
     print("Je hebt Raad Het Getal gekozen, laten we beginnen.")
-    import Raad_het_getal_spelletje_2
+    raadspel()
+
 
 def optie2():
     print("Je hebt Galgje gekozen, laten we beginnen.")
-    import galgje
+    galgjespel()
 
 def optie3():
     print("Optie 3 afsluiten")
